@@ -1,0 +1,113 @@
+{
+  "label": "10M",
+  "data_dir": "/home/imrulhuda/babylm_data/strict_small",
+  "min_tokens": 10,
+  "n_words_in_trajectory": 502,
+  "sources": {
+    "childes": {
+      "n": 298,
+      "corpus_vs_seedlings": {
+        "rho": 0.47860360028640153,
+        "p": 1.8201424920327638e-18
+      },
+      "human_aoa_vs_seedlings": {
+        "rho": -0.7857458199303298,
+        "p": 1.0389407831181392e-63
+      },
+      "human_aoa_vs_corpus": {
+        "rho": -0.5713578488296266,
+        "p": 3.1975589128059805e-27
+      }
+    },
+    "bnc_spoken": {
+      "n": 234,
+      "corpus_vs_seedlings": {
+        "rho": 0.19610804117070874,
+        "p": 0.0025857327077090436
+      },
+      "human_aoa_vs_seedlings": {
+        "rho": -0.8028422686044931,
+        "p": 5.041727680062245e-54
+      },
+      "human_aoa_vs_corpus": {
+        "rho": -0.19627584155570996,
+        "p": 0.0025634159420243985
+      }
+    },
+    "switchboard": {
+      "n": 63,
+      "corpus_vs_seedlings": {
+        "rho": 0.08866926595423938,
+        "p": 0.4895277552497209
+      },
+      "human_aoa_vs_seedlings": {
+        "rho": -0.7546997398581239,
+        "p": 9.091370996448063e-13
+      },
+      "human_aoa_vs_corpus": {
+        "rho": -0.07624015934906132,
+        "p": 0.5525889982376428
+      }
+    },
+    "gutenberg": {
+      "n": 264,
+      "corpus_vs_seedlings": {
+        "rho": 0.2530935348261696,
+        "p": 3.1725891750582636e-05
+      },
+      "human_aoa_vs_seedlings": {
+        "rho": -0.8075233406820516,
+        "p": 5.198365688085689e-62
+      },
+      "human_aoa_vs_corpus": {
+        "rho": -0.253438157149354,
+        "p": 3.092194319334135e-05
+      }
+    },
+    "open_subtitles": {
+      "n": 291,
+      "corpus_vs_seedlings": {
+        "rho": 0.2767452457033761,
+        "p": 1.6302492443938574e-06
+      },
+      "human_aoa_vs_seedlings": {
+        "rho": -0.7818615725840288,
+        "p": 2.9862691911381448e-61
+      },
+      "human_aoa_vs_corpus": {
+        "rho": -0.3017448993973988,
+        "p": 1.5371002369030096e-07
+      }
+    },
+    "simple_wiki": {
+      "n": 261,
+      "corpus_vs_seedlings": {
+        "rho": 0.2861634179285884,
+        "p": 2.60711476690195e-06
+      },
+      "human_aoa_vs_seedlings": {
+        "rho": -0.8016386948712553,
+        "p": 8.310267149205154e-60
+      },
+      "human_aoa_vs_corpus": {
+        "rho": -0.27553790225184405,
+        "p": 6.247279900650586e-06
+      }
+    },
+    "ALL": {
+      "n": 299,
+      "corpus_vs_seedlings": {
+        "rho": 0.4161848634074313,
+        "p": 5.921530134621712e-14
+      },
+      "human_aoa_vs_seedlings": {
+        "rho": -0.7863022580324301,
+        "p": 4.56367020716205e-64
+      },
+      "human_aoa_vs_corpus": {
+        "rho": -0.47475554940002235,
+        "p": 3.254421948729478e-18
+      }
+    }
+  }
+}

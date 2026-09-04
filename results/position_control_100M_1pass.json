@@ -1,0 +1,20 @@
+{
+  "label": "100M, 1 pass",
+  "n_words": 504,
+  "curriculum_encodes_human_aoa": {
+    "rho": 0.965582438609073,
+    "p": 9.217882812794567e-296
+  },
+  "model_follows_feeding_order": {
+    "rho": 0.7861448465158168,
+    "p": 5.577936757039006e-107
+  },
+  "model_vs_human_total": {
+    "rho": 0.8063159670366516,
+    "p": 1.4460285115835346e-116
+  },
+  "residual_controlling_position": {
+    "rho": 0.29379778635725967,
+    "p": 1.7151459040647386e-11
+  }
+}
