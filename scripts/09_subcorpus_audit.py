@@ -12,7 +12,7 @@ SOURCES = ["childes", "bnc_spoken", "switchboard", "gutenberg",
 FILES = {s: f"{s}.train.txt" for s in SOURCES}
 SPEAKER = re.compile(r"^\*[A-Za-z0-9]{1,8}:\s*")
 TOKRE = re.compile(r"[a-z']+")
-MIN_TOKENS = 10          # same threshold as the published audit
+MIN_TOKENS = 10
 
 
 def sentence_counts(path, words):
